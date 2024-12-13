@@ -1,0 +1,261 @@
+.projectcfcontact {
+    background-image: url('../src/assets/images/breadcrumb-bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 20vh;
+}
+
+
+.firstdiv{
+    margin-left: 8%;
+    width: 40%;
+    margin-top: 7%;
+}
+.firstheading{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.firstext{
+    /* margin-top: 1%; */
+    color: grey;
+    font-size: 18px;
+}
+
+.contactcontainer{
+    padding-top: 4%;
+    height: 200vh;
+}
+
+.imgsm1{
+    width: 100%;
+    height: 8vh;
+}
+
+.imgsm2{
+    width: 100%;
+    height: 8vh;
+}
+
+.imgsm3{
+    width: 100%;
+    height: 8vh;
+}
+
+.columnfirst{
+    margin-top: 0%;
+}
+
+.columnsecond{
+    margin-top: 0%;
+}
+
+.columnthird{
+    margin-top: 0%;
+}
+
+.mapcontainer{
+    box-shadow: 0 8px 20px -4px gray;
+    margin-top: 5%;
+    height: 80vh;
+}
+
+.innercolumn1{
+    margin-top: 0%;
+}
+
+
+.secdiv{
+    /* margin-left: %; */
+    width: 40%;
+    margin-top: 7%;
+}
+.secheading{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.sectext{ 
+    color: grey;
+    font-size: 18px;
+}
+
+.rowinput{
+    margin-top: 5%;
+}
+
+.seccolinpname{
+    margin-top: 0%;
+}
+.firstcolinpname{
+    margin-top: 0%;
+}
+
+/* name */
+
+  input[id=namecontact]{
+    box-shadow: 0 8px 20px -4px gray;
+    /* margin-top: -1%; */
+    width: 91%;
+    height: 7vh;
+    border: 1px solid gray;
+    outline: none;
+    caret-color: gray;
+    /* color: white; */
+    font-size: 15px;
+    padding-left: 3%;
+  }
+
+  input[id=namecontact]:focus{
+    border-color: gray;
+  }
+
+  input[id=namecontact]::placeholder{
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+  }
+
+
+  /* email */
+  input[id=emailcontact]{
+    box-shadow: 0 8px 20px -4px gray;
+    /* margin-top: -1%; */
+    width: 91%;
+    height: 7vh;
+    border: 1px solid gray;
+    outline: none;
+    caret-color: gray;
+    /* color: white; */
+    font-size: 15px;
+    padding-left: 3%;
+  }
+
+  input[id=emailcontact]:focus{
+    border-color: gray;
+  }
+
+  input[id=emailcontact]::placeholder{
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+  }
+
+
+  /* message */
+  input[id=message]{
+    box-shadow: 0 8px 20px -4px gray;
+    /* margin-left: 1%; */
+    margin-top: 2%;
+    width: 63%;
+    height: 25vh;
+    border: 1px solid gray;
+    outline: none;
+    caret-color: gray;
+    /* color: white; */
+    font-size: 15px;
+    padding-left: 1%;
+    padding-bottom: 9%;
+  }
+
+  input[id=message]:focus{
+    border-color: gray;
+  }
+
+  input[id=message]::placeholder{
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+  }
+
+  .formbtnew{
+    box-shadow: 0 8px 20px -4px gray;
+    margin-top: 2%;
+    width: 17%;
+    height: 8vh;
+    background-color: #F28C28;
+    color: white;
+    border: none;
+    text-align: center;
+  }
+  .formbtnew:hover{
+    background-color: white;
+    color: #F28C28;
+  }
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .projectcf {
+        height: 50vh;
+    }
+    .firstdiv{
+        margin-left: 5%;
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .imgsm1{
+        width: 15%;
+    }
+    
+    .imgsm2{
+        width: 15%;
+    }
+    
+    .imgsm3{
+        width: 15%;
+    }
+    
+    .columnfirst{
+        margin-top: 5%;
+    }
+    
+    .columnsecond{
+        margin-top: 5%;
+    }
+    
+    .columnthird{
+        margin-top: 5%;
+    }
+
+    .innercolumn1{
+        margin-top: 5%;
+    }
+    .secdiv{
+        margin-left: 5%;
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .seccolinpname{
+        margin-top: 5%;
+    }
+
+    .firstcolinpname{
+        margin-top: 5%;
+    }
+    input[id=message]{
+        margin-top: 5%;
+        width: 91%;
+        height: 20vh;
+        padding-left: 3%;
+        padding-bottom: 29%;
+      }
+
+      .formbtnew{
+        margin-top: 5%;
+        width: 40%;
+        height: 6vh;
+      }
+      .contactcontainer{
+        height: 220vh;
+    }
+
+    .projectcfcontact {
+        height: 50vh;
+    }
+
+}

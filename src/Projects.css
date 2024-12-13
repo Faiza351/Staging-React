@@ -1,0 +1,115 @@
+.projectcfpro {
+    background-image: url('../src/assets/images/breadcrumb-bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 65vh;
+}
+
+.projecthead {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 7%;
+    color: white;
+    text-align: center;
+}
+
+
+.h5home {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.h5projects {
+    margin-top: -20%;
+    text-align: right;
+    color: #F28C28;
+}
+
+.centertexth {
+    margin-top: 4%;
+    margin-left: 45%;
+    width: 11.5%;
+}
+
+
+.projectcon{
+    height: 240vh;
+    padding-top: 10%;
+}
+
+/* row1 */
+.imgr1 {
+    width: 100%;
+    height: 60vh;
+}
+
+.imgr2 {
+    width: 100%;
+    height: 60vh;
+}
+.obh4{
+    padding-top: 2%;
+    text-align: center;
+}
+.col2new{
+    margin-top: 0%;
+}
+
+/* row2 */
+
+
+/* .projectrow1{
+    
+
+} */
+.projectcol1 {
+    margin-top: 5%;
+}
+
+.projectcol2 {
+    margin-top: 5%;
+}
+.imgr3 {
+    width: 100%;
+    height: 60vh;
+}
+
+.imgr4 {
+    width: 100%;
+    height: 60vh;
+}
+
+/* row3 */
+.projectcol3 {
+    margin-top: 5%;
+}
+
+.projectcol4 {
+    margin-top: 5%;
+}
+.imgr5 {
+    width: 100%;
+    height: 60vh;
+}
+
+.imgr6 {
+    width: 100%;
+    height: 60vh;
+}
+
+@media screen and (max-width: 600px) {
+    .projectcon{
+        height: 415vh;
+        padding-top: 20%;
+    }
+    .col2new{
+        margin-top: 5%;
+    }
+
+    .centertexth {
+        margin-top: 4%;
+        margin-left: 30%;
+        width: 40%;
+    }
+
+}

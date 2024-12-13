@@ -1,0 +1,86 @@
+.aboutcf {
+    background-image: url('../src/assets/images/breadcrumb-bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 65vh;
+}
+
+.abouthead {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 7%;
+    color: white;
+    text-align: center;
+}
+
+
+.h5homeabout {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.h5about {
+    margin-top: -22%;
+    /* margin-left: 40%; */
+    text-align: right;
+    color: #F28C28;
+}
+
+.centertexthabout {
+    margin-top: 4%;
+    margin-left: 45%;
+    width: 10.5%;
+}
+
+.aboutcon{
+    height: 80vh;
+    padding-top: 10%;
+}
+.textcol1{
+    color: grey;
+    padding-top: 2%;
+}
+.row1col2{
+   padding-top: 5%;
+}
+
+.image1{
+width: 20%;
+}
+
+/* .image2{
+    
+} */
+
+.ourmission{
+padding-top: 5%;
+color: black;
+}
+
+.textom{
+    padding-top: 3%;
+    color: grey;
+}
+.columnlst{
+    margin-top: 0%;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .aboutcon{
+        height: 100vh;
+    }
+    .columnlst{
+        margin-top: 5%;
+    }
+
+    .h5about {
+        margin-top: -23%;
+    }
+    
+    .centertexthabout {
+        margin-left: 30%;
+        width: 35%;
+    }
+    
+}
